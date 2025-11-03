@@ -1,0 +1,7 @@
+URL: https://github.com/rajasaid/DI_Bootcamp/blob/main/week1/day1/DailyChallenge/daily.py
+Brief justification:
+- correctness: The code accurately and completely addresses the problem described in the chapter content. It gets user input, checks the length of the string, prints the first and last characters, builds the string character by character, and jumbles the string. All requirements are met.
+- readability: The code is well-structured and easy to read. The function `string_game` clearly encapsulates the logic. The comments are helpful, although some of them are just copies of the instructions.
+- performance: The code has good performance. The operations are efficient for the given task. Building the string character by character and shuffling the string are done in a reasonable manner.
+- security: The code doesn't have any significant security issues. The input function is used to get the user input, and there are no apparent vulnerabilities.
+
