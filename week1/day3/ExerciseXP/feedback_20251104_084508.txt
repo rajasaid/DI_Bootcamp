@@ -1,0 +1,10 @@
+URL: https://github.com/rajasaid/DI_Bootcamp/blob/main/week1/day3/ExerciseXP/exercises.py
+suggestions for improvement:
+- The code is well-structured and solves all the given exercises correctly.
+- Consider adding more comments to further improve readability, especially for complex sections.
+Brief justification:
+- correctness: All four exercises are implemented correctly and completely, adhering to all instructions and expected outputs. The code demonstrates understanding of dictionaries, loops, conditionals, and dictionary methods as specified in the chapter content.
+- readability: The code is generally well-readable with appropriate variable names and clear structure. However, more comments could be added to enhance understanding, especially for those unfamiliar with dictionary comprehensions or the specific logic behind each step.
+- performance: The code uses efficient methods like `zip` and dictionary comprehensions, ensuring good performance for the given problem sizes. Looping and conditional checks are straightforward and do not introduce unnecessary overhead.
+- security: The code is generally secure. The bonus section takes user input, but the input is immediately converted to an integer, mitigating most common injection vulnerabilities. However, be mindful of potential integer overflow issues if extremely large numbers are entered. Input validation could be added for real-world applications.
+
