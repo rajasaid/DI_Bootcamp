@@ -1,0 +1,13 @@
+URL: URL: https://github.com/rajasaid/DI_Bootcamp/blob/main/week2/day2/ExerciseXP/dog.py
+suggestions for improvement:
+- Consider using more descriptive variable names for better readability.
+- While using double underscores for name mangling adds a level of protection, be mindful of its implications for subclassing and inheritance.
+Correctness: 100%
+-----
+URL: URL: https://github.com/rajasaid/DI_Bootcamp/blob/main/week2/day2/ExerciseXP/exercise_xp.py
+suggestions for improvement:
+- In the `play` method of the `PetDog` class, you should retrieve the dog's name using `self.name` or `self.get_name()` if you have a getter method. Currently, the code assumes that the `get_name()` method exists.
+- The question indicates that the Dog class should be imported from a previous exercise however the solution provided the code for the petdog class and not the dog class in the first place.
+- The question indicates that *args on the play method is a list of dog instances however the code assumes its a list of names.
+Correctness: 80%
+-----
