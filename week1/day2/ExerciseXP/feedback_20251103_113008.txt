@@ -1,0 +1,10 @@
+URL: https://github.com/rajasaid/DI_Bootcamp/blob/main/week1/day2/ExerciseXP/exercises.py
+suggestions for improvement:
+- Consider adding comments to break down larger blocks of code into logical chunks.
+- Using more descriptive variable names would enhance readability.
+Brief justification:
+- correctness: All exercises are implemented correctly and completely, addressing all requirements outlined in the chapter content. The code covers sets, tuples, list manipulation, floats, for loops, while loops, input/output, and conditionals as specified in the exercises. The bonus exercise is also correctly implemented.
+- readability: The code is generally readable, with clear logic and structure. However, the addition of comments would improve the understanding of complex sections. Shorter variable names could also improve readability in some places.
+- performance: The code has good performance. List comprehensions and efficient built-in methods are used where appropriate. No significant performance bottlenecks are present.
+- security: The code handles user inputs with sufficient validation, specifically in exercise 6 (name validation) and exercise 9/bonus (age validation), which is a good practice. However, a more robust error handling could be added in case of invalid input.
+
