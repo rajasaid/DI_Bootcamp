@@ -1,0 +1,12 @@
+URL: https://github.com/rajasaid/DI_Bootcamp/blob/main/week2/day4/DailyChallenge/daily.py
+suggestions for improvement:
+- In `remove_special_characters`, the regular expression `[:punct:]` is not correct for removing punctuation. It should be `[^a-zA-Z0-9\s]` to remove all non-alphanumeric characters or `[{}@_*&#]+` for specified special characters depending on the need.
+- Consider using a more comprehensive stop word list or a library like NLTK for stop word removal in `remove_stop_words` for better coverage.
+- The `remove_punctuation` method could be more concise using a generator expression within the `join` method.
+- Add more comprehensive error handling, especially around file operations. Specifically, the `from_file` method could benefit from more specific error handling for different file-related exceptions.
+Brief justification:
+- correctness: The code addresses all parts of the prompt including creating the `Text` and `TextModification` classes with the specified methods (`word_frequency`, `most_common_word`, `unique_words`, `from_file`, `remove_punctuation`, `remove_stop_words`, and `remove_special_characters`). The only minor deduction is due to the regex in `remove_special_characters` being incorrect.
+- readability: The code is generally well-formatted and uses meaningful variable names. The class and method structures are clear, making it easy to understand the code's functionality.
+- performance: The performance is generally acceptable. The use of `Counter` in `most_common_word` is efficient. However, using list comprehensions in `remove_punctuation` and `remove_stop_words` could slightly improve performance.  The stop words list should be a set.
+- security: The code appears to have no major security vulnerabilities. File handling in `from_file` includes a basic `FileNotFoundError` exception, which is a good practice.
+
