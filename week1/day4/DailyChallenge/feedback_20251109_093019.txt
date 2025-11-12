@@ -1,0 +1,10 @@
+URL: https://github.com/rajasaid/DI_Bootcamp/blob/main/week1/day4/DailyChallenge/daily.py
+suggestions for improvement:
+- Consider adding validation to prevent the user from entering non-numeric values for the price, to improve robustness.
+- In `show_menu`, handle the case where the menu is empty to avoid printing a misleading empty menu header, as specified in the instructions.
+Brief justification:
+- correctness: The code implements all the required functions (show_menu, add_item, update_price, delete_item, show_options, and run_coffee_shop) and the overall program flow correctly. It accurately addresses the problem described in the prompt. Minor improvements could be made to error handling and input validation, but the core functionality is complete. Additionally, the code also includes the extra challenge of implementing the `search_item` function.
+- readability: The code is well-structured with clear function definitions and comments, making it easy to understand. Variable names are descriptive, and the code is logically organized.
+- performance: The code's performance is adequate for the scale of the problem. The operations are simple and efficient, with no unnecessary loops or complex algorithms.
+- security: The code doesn't directly deal with external data or sensitive information. Basic input sanitization using `.strip()` is present, mitigating some simple injection risks. However, more robust input validation and sanitization could be added to prevent potential issues.
+

@@ -1,0 +1,10 @@
+URL: https://github.com/rajasaid/DI_Bootcamp/blob/main/week1/day4/ExerciseXP/exercises.py
+suggestions for improvement:
+- Consider adding more comments to separate each function to make it more readable.
+- For Exercise 5: Consider making the text for the shirt a user input instead of generating a random choice from a dictionary.
+Brief justification:
+- correctness: All the functions correctly implemented according to the instructions in the chapter content. The code fulfills all requirements for each function, including handling default values, using parameters, generating random numbers, and providing advice based on temperature ranges.
+- readability: The code is well-structured and easy to follow, using meaningful variable names and clear function definitions. The use of f-strings enhances readability. However, adding more spacing and comments between function definitions would further improve readability.
+- performance: The code is efficient and performs well. The use of `random.randint()` and `random.uniform()` is appropriate for the tasks, and the conditional statements are structured logically. There are no unnecessary loops or complex operations that could impact performance.
+- security: The code does not involve any user input that could pose a security risk. The use of `random` module is safe and does not introduce any vulnerabilities. Input validation is implemented to avoid ValueErrors in the random number comparison exercise.
+
