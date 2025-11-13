@@ -1,0 +1,20 @@
+URL: URL: https://github.com/rajasaid/DI_Bootcamp/blob/main/week2/day5/MiniProject/anagram_checker.py
+suggestions for improvement:
+- Consider using sets instead of lists for `self.words` in the `AnagramChecker` class to improve the performance of `is_valid_word` lookups, as sets offer O(1) average-case time complexity for membership checks compared to O(n) for lists.
+- Add more comprehensive error handling, especially regarding file operations. While a `FileNotFoundError` is caught, consider handling potential `IOError` exceptions that might arise during file reading.
+Correctness: 100%
+-----
+URL: URL: https://github.com/rajasaid/DI_Bootcamp/blob/main/week2/day5/MiniProject/anagrams.py
+suggestions for improvement:
+- The program is well-structured and easy to understand.
+- Consider adding a try-except block for handling file operations in the AnagramChecker class to improve robustness against file errors.
+Correctness: 100%
+-----
+URL: URL: https://github.com/rajasaid/DI_Bootcamp/blob/main/week2/day5/MiniProject/sowpods.txt
+suggestions for improvement:
+- This looks like a word list file, which would be necessary for the program to function. However, this task does not require or involve assessing data files, so it is not possible to say whether it correctly aligns with the instructions.
+- Given this submission is not actual Python code, there are no ways to assess performance, readability or security.
+- This is just a text file with a large number of words, so it does not fulfill the prompt of being a functional python program.
+- This code is just a text file of words and does not provide the requested functionality. This needs to be functional code to achieve the goal, and it needs to include the methods laid out in the instructions. Namely, the AnagramChecker class should have methods to read files, validate user inputs, and then find anagrams for that word
+Correctness: 0.0%
+-----

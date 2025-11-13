@@ -1,0 +1,10 @@
+URL: https://github.com/rajasaid/DI_Bootcamp/blob/main/week1/day2/DailyChallenge/daily.py
+suggestions for improvement:
+- Consider separating the input prompts for the two challenges more clearly within the main function to improve clarity for the user.
+- While the `try-except` blocks handle basic input errors, consider adding more specific error handling for potential issues like extremely large input values that could lead to performance issues.
+Brief justification:
+- correctness: The code accurately implements both challenges as described in the chapter content. It correctly calculates and outputs multiples of a number based on user input, and it successfully removes consecutive duplicate letters from a user-provided string, aligning perfectly with the instructions and examples provided.
+- readability: The code is well-structured with clear function definitions and comments, making it easy to understand. The use of descriptive variable names enhances readability. It could be improved by adding a blank line between the two try-except blocks. The function definitions are clear and concise.
+- performance: The code's performance is efficient for the given problem constraints. The loops used are appropriate for the size of the input expected.  The string manipulation in the second challenge is also performed efficiently using a list to build the result.
+- security: The code includes basic error handling using `try-except` blocks to prevent crashes due to invalid user inputs (e.g., non-integer values).  It could be improved by adding validation to prevent extremely large numbers in the first challenge. The string processing is generally safe, assuming reasonable string lengths.
+
