@@ -1,0 +1,12 @@
+URL: URL: https://github.com/rajasaid/DI_Bootcamp/blob/main/week2/day5/DailyChallenge/daily.py
+suggestions for improvement:
+- The `Card` class can be instantiated without specifying a suit or value, leading to random card generation. While not explicitly forbidden, it's unusual and might not be intended. Consider disallowing this or providing a clearer use case.
+- The `Deck.shuffle()` method could be more efficient. Instead of generating random cards until the deck is full, it should create all 52 cards upfront and then shuffle.  The current implementation has the potential for performance issues as it grows.
+- Consider adding docstrings to classes and methods to improve readability and understanding.
+Correctness: 90%
+-----
+URL: URL: https://github.com/rajasaid/DI_Bootcamp/blob/main/week2/day5/DailyChallenge/quiz.txt
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
