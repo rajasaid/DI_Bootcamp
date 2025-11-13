@@ -1,0 +1,16 @@
+URL: URL: https://github.com/rajasaid/DI_Bootcamp/blob/main/week2/day3/ExerciseXP/func.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/rajasaid/DI_Bootcamp/blob/main/week2/day3/ExerciseXP/exercise_one.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/rajasaid/DI_Bootcamp/blob/main/week2/day3/ExerciseXP/exercise_xp.py
+suggestions for improvement:
+- Consider using more descriptive variable names where appropriate to enhance readability.
+- Add more comments to explain complex logic, especially within the dunder methods.
+Correctness: 100%
+-----

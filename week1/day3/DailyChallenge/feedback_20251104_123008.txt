@@ -1,0 +1,10 @@
+URL: https://github.com/rajasaid/DI_Bootcamp/blob/main/week1/day3/DailyChallenge/daily.py
+suggestions for improvement:
+- Consider adding comments to explain the purpose of each section of the code, especially the data cleaning part.
+- The code could be slightly more efficient by combining the wallet cleaning and price cleaning into reusable functions.
+Brief justification:
+- correctness: The code accurately solves both challenges. Challenge 1 correctly creates the letter index dictionary, and Challenge 2 correctly determines affordable items and prints the sorted list or 'Nothing' as required. It precisely follows the instructions and produces the expected output for the given examples.
+- readability: The code is generally well-structured and easy to follow. Variable names are descriptive, and the logic is straightforward. Adding more comments would further enhance readability.
+- performance: The code's performance is efficient for the given problem sizes. The loops are necessary for iterating through the word and the items, and the string replacements are relatively quick operations. There is no obvious bottleneck.
+- security: The code is reasonably secure for its intended purpose. It does not handle any sensitive data or perform any operations that are particularly vulnerable to security risks. However, always sanitize user input when applicable.
+

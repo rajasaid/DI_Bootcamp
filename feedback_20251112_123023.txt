@@ -1,0 +1,12 @@
+URL: URL: https://github.com/rajasaid/DI_Bootcamp/blob/main/week2/day4/ExerciseXP/exercise_xp.py
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: URL: https://github.com/rajasaid/DI_Bootcamp/blob/main/week2/day4/ExerciseXP/words.txt
+suggestions for improvement:
+- There is no code to evaluate because the only input in 'Code:' is text representing the word list for Exercise 1.  Therefore, readability, performance and security get default ratings.
+- To properly address Exercise 1, the submission should include Python code that reads this word list, takes a sentence length as input, and generates a random sentence. The absence of any such code significantly impacts the 'correctness' score.
+- To address Exercise 2, code needs to be provided, so this part isn't done at all.
+Correctness: 65.0%
+-----
