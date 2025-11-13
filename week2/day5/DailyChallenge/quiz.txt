@@ -1,0 +1,17 @@
+#### OOP Quiz
+What is a class?
+## class is the blueprint of objects behaviour and attributes as they exist in memory, it is a way to define new user-defined type. 
+What is an instance?
+## instance is making object from a certain class. one object is one instance. 
+What is encapsulation?
+## encapsulation is the feature of combining data with methods under same roof which the class in OOP case. 
+What is abstraction?
+## abstraction is the method of hiding implementation detail from the user and exposing only the what not the how. 
+What is inheritance?
+## inheritance is mostly an IS-A relationship between two or more classes that include the fact that one class includes and extends another (inherits)
+What is multiple inheritance?
+## multiple inheritance is when we have a child class inheriting from more than one parent class.
+What is polymorphism?
+## polymorphism is about many forms, in OOP it is how methods with the same name can do different actions through overriding or overloading process. 
+What is method resolution order or MRO?
+## in Python OOP concept of MRO means how python interpreter searches for methods and attributes in classes hirarchy specially in multiple inheritance cases to know which to use. 
